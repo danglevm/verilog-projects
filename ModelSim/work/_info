@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/bollabollo/intelFPGA/20.1/modelsim_ase/bin
+vLedBlinker
+Z0 !s110 1696387536
+!i10b 1
+!s100 9=_khHU7Gm=]EWMJSYgMh1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3E4zZGInmYN@L]ECcBW>62
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/bollabollo/Desktop/FPGA-Projects/ModelSim
+w1696285151
+8/home/bollabollo/Desktop/FPGA-Projects/LedBlinker/LedBlinker.v
+F/home/bollabollo/Desktop/FPGA-Projects/LedBlinker/LedBlinker.v
+!i122 10
+L0 1 51
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1696387536.000000
+!s107 /home/bollabollo/Desktop/FPGA-Projects/LedBlinker/LedBlinker.v|/home/bollabollo/Desktop/FPGA-Projects/LedBlinker/LedBlinker_tb.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|/home/bollabollo/Desktop/FPGA-Projects/LedBlinker/LedBlinker_tb.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@led@blinker
+vLedBlinker_tb
+R0
+!i10b 1
+!s100 e=kbVQ5IiK_EK>`^RB0z]1
+R1
+I1Wf;]na1?3b>SIh>fJoA]1
+R2
+R3
+w1696387517
+8/home/bollabollo/Desktop/FPGA-Projects/LedBlinker/LedBlinker_tb.v
+F/home/bollabollo/Desktop/FPGA-Projects/LedBlinker/LedBlinker_tb.v
+!i122 10
+L0 9 30
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 /home/bollabollo/Desktop/FPGA-Projects/LedBlinker/LedBlinker.v|/home/bollabollo/Desktop/FPGA-Projects/LedBlinker/LedBlinker_tb.v|
+R6
+!i113 1
+R7
+R8
+n@led@blinker_tb

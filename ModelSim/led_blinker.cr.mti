@@ -1,0 +1,9 @@
+/home/bollabollo/Desktop/FPGA-Projects/LedBlinker/LedBlinker_tb.v {1 {vlog -work work -stats=none /home/bollabollo/Desktop/FPGA-Projects/LedBlinker/LedBlinker_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LedBlinker
+-- Compiling module LedBlinker_tb
+
+Top level modules:
+	LedBlinker_tb
+
+} {} {}}

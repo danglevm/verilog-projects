@@ -1,0 +1,7 @@
+`include "LedBlinker.v"
+//simulation-time units and precision time
+//simulation time: how often to update its value
+//precision time: how to round its values
+//the larger the simulation time, the quicker the simulations will run.
+//clock runs at like 50 MHz so very quick
+`timescale 1ns/1ps

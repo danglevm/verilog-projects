@@ -1,0 +1,28 @@
+# Loading project led_blinker
+# Compile of LedBlinker_tb.v was successful.
+vsim work.LedBlinker_tb
+# vsim work.LedBlinker_tb 
+# Start time: 22:39:38 on Oct 03,2023
+# Loading work.LedBlinker_tb
+# Loading work.LedBlinker
+add wave -position insertpoint sim:/LedBlinker_tb/#INITIAL#11/*
+add wave -position insertpoint sim:/LedBlinker_tb/*
+run
+# Test Complete
+run
+# Compile of LedBlinker_tb.v was successful.
+vsim work.LedBlinker_tb
+# End time: 22:46:05 on Oct 03,2023, Elapsed time: 0:06:27
+# Errors: 0, Warnings: 3
+# vsim work.LedBlinker_tb 
+# Start time: 22:46:05 on Oct 03,2023
+# Loading work.LedBlinker_tb
+# Loading work.LedBlinker
+add wave -position insertpoint sim:/LedBlinker_tb/*
+run
+# Test Complete
+run
+run
+# Break key hit
+# End time: 22:52:42 on Oct 03,2023, Elapsed time: 0:06:37
+# Errors: 0, Warnings: 1
