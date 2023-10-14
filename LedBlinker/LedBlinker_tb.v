@@ -9,6 +9,7 @@
 module LedBlinker_tb;
 
 reg r_CLK = 1'b0;
+reg r_RESET = 1'b0;
 reg r_SWITCH_1 = 1'b0;
 reg r_SWITCH_2 = 1'b0;
 
@@ -18,20 +19,35 @@ wire w_LED_DRIVE;
 LedBlinker UUT
 (
 	.i_clk(r_CLK),
+	.i_reset (r_RESET),
 	.i_switch_1(r_SWITCH_1),
 	.i_switch_2(r_SWITCH_2),
 	.o_led(w_LED_DRIVE)
 );
 
-always #1 r_CLK <= !r_CLK;
+always #50 r_CLK <= !r_CLK;
 
 initial begin
 
 r_CLK <= 1'b0;
 r_SWITCH_1 <= 1'b0;
 r_SWITCH_2 <= 1'b0;
+r_RESET <= 1'b0;
 
-$display ("Test Complete");	
+
+r_SWITCH_1 <= 1'b0;
+r_SWITCH_2 <= 1'b0;
+#100
+r_SWITCH_1 <= 1'b0;
+r_SWITCH_2 <= 1'b1;
+#100
+r_SWITCH_1 <= 1'b1;
+r_SWITCH_2 <= 1'b0;
+#100
+r_SWITCH_1 <= 1'b1;
+r_SWITCH_2 <= 1'b1;
+
+$display ("Test Complete");
 
 end
 
