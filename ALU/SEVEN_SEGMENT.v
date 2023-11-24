@@ -36,3 +36,5 @@ always @ (i_DATA_IN) begin
 
 end
 
+endmodule
+

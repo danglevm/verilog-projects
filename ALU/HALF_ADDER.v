@@ -6,7 +6,7 @@ module HALF_ADDER (
 );
 
 
-assign o_SUM = i_INPUT_A & i_INPUT_B;
-assign o_CARRY_OUT = i_INPUT_A ^ i_INPUT_B;
+assign o_SUM = i_INPUT_A ^ i_INPUT_B;
+assign o_CARRY_OUT = i_INPUT_A & i_INPUT_B;
 
 endmodule

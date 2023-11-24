@@ -6,25 +6,20 @@ module ALU (
 	//SEGMENT 7
 	output [6:0] o_HEX_0,
 	output [6:0] o_HEX_1,
-	output [6:0] o_HEX_2,
-	output [6:0] o_HEX_3,
-	output [6:0] o_HEX_4,
-	output [6:0] o_HEX_5,
 	
 	
 	//LEDS
-	o_LEDS
+	output reg [9:0] o_LEDS
 );
 
-input i_CLK;
-
-
-
-output [9:0] o_LEDS;
-reg [9:0] o_LEDS;
-
-
 SEVEN_SEGMENT SEG_0 (
-.i_DATA_IN (
-.i_DATA_OUT(o_HEX_0)
-)
+.i_DATA_IN (i_SWITCHES[3:0]),
+.o_DATA_OUT(o_HEX_0)
+);
+
+SEVEN_SEGMENT SEG_1 (
+.i_DATA_IN	(i_SWITCHES[7:4]),
+.o_DATA_OUT (o_HEX_1)
+);
+
+endmodule
